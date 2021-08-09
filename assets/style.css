@@ -1,0 +1,16 @@
+.header {
+background-color: teal;
+border: 10px;
+overflow: hidden;
+
+}
+
+ul li {
+    display: inline;
+    padding: 4px;
+}
+
+.toplink {
+list-style-type: none;
+float: right;
+}
