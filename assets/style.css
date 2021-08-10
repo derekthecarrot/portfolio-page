@@ -1,16 +1,41 @@
 .header {
-background-color: teal;
-border: 10px;
-overflow: hidden;
+    background-color: crimson;
+    justify-content: space-between;
+    display: flex;
+    height: 65px;
+}
+
+.divheader {
+    padding-left: 15px;
+}
+
+.navlink {
+    position: relative;
 
 }
 
-ul li {
+.navul {
+    list-style-type: none;
+    display: flex;
+    
+}
+
+.navli {
     display: inline;
-    padding: 4px;
+    padding: 6px;
 }
 
-.toplink {
-list-style-type: none;
-float: right;
+.heroimg {
+    background-image: url(../assets/images/ok.jpg);
+    height: 200px;
+    position: relative;
+
+}
+
+.heroimg h2 {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    padding: 120px 200px 0 0;
+    
 }
