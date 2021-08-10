@@ -1,8 +1,14 @@
 .header {
     background-color: crimson;
     justify-content: space-between;
+    align-items: center;
     display: flex;
     height: 65px;
+}
+
+.main {
+    display: flex;
+
 }
 
 .divheader {
@@ -11,6 +17,7 @@
 
 .navlink {
     position: relative;
+    display: flex;
 
 }
 
@@ -21,7 +28,6 @@
 }
 
 .navli {
-    display: inline;
     padding: 6px;
 }
 
@@ -37,5 +43,28 @@
     position: relative;
     justify-content: flex-end;
     padding: 120px 200px 0 0;
+    margin: 0px;
     
+}
+
+.aside-left {
+    border-right: 2px solid blue;
+    padding: 3%;
+    width: 15%;
+}
+
+.aside-rdiv {
+    width: 85%;
+}
+
+@media screen and (min-width: 768px) {
+
+    main,
+    .navlink {
+      flex-direction: column;
+    }
+
+    .navlink {
+        order: 2;
+    }
 }
