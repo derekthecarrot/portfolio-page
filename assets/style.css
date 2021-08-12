@@ -63,9 +63,9 @@
     padding: 10px 10px 30px 10px;
 }
 
-.aside-rsection {
+.aside-right {
     border: 2px solid blue;
-    width: 75%:
+    width: 75%;
 
 }
 .aside-rdiv {
@@ -74,7 +74,6 @@
 
 .contact-me {
     border: 2px solid blue;
-    position: relative;
 }
 
 .contact-me-div {
