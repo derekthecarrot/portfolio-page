@@ -8,6 +8,7 @@
 
 .main {
     display: flex;
+    width: 100%;
 
 }
 
@@ -16,19 +17,23 @@
 }
 
 .navlink {
-    position: relative;
-    display: flex;
-
+    padding: 5px;
+   
 }
 
 .navul {
     list-style-type: none;
     display: flex;
     
+    
 }
 
 .navli {
     padding: 6px;
+    border: 2px solid blue;
+    margin: 6px;
+    background-color: white
+ 
 }
 
 .heroimg {
@@ -48,23 +53,34 @@
 }
 
 .aside-left {
-    border-right: 2px solid blue;
-    padding: 3%;
-    width: 15%;
+    border: 2px solid blue;
+    padding: 10px;
+    margin: 10px;
+    width: 25%;
 }
 
+.aside-ldiv {
+    padding: 10px 10px 30px 10px;
+}
+
+.aside-rsection {
+    border: 2px solid blue;
+    width: 75%:
+
+}
 .aside-rdiv {
-    width: 85%;
+    border: 2px solid blue;
 }
 
-@media screen and (min-width: 768px) {
-
-    main,
-    .navlink {
-      flex-direction: column;
-    }
-
-    .navlink {
-        order: 2;
-    }
+.contact-me {
+    border: 2px solid blue;
+    position: relative;
 }
+
+.contact-me-div {
+    padding: 6px;
+    border: 2px solid blue;
+    margin: 6px;
+    background-color: red;
+}
+
