@@ -61,20 +61,36 @@ div h1 {
 
 .aside-left {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     border: 2px solid blue;
     padding: 10px;
-    margin: 10px;
-    width: 25%;
+    width: 25%
     
 }
 
 .aside-ldiv {
-    padding: 10px 10px 30px 10px;
+    margin-left: 24%;
+    margin-bottom: 10%;
+    padding: 5%;
     font-size: 25px;
     height: 33%;
-    justify-content: space-evenly;
+    
+}
+
+#AboutMe {
+    flex: .4;
+    border-right: 2px solid #6685a7;
+}
+
+#MyProjects {
+    flex: 2;
+    border-right: 2px solid #6685a7;
+}
+
+#ContactMe {
+    flex: 0.2;
+    border-right: 2px solid #6685a7;
 }
 
 .aside-right {
