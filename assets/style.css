@@ -6,6 +6,13 @@
     height: 65px;
 }
 
+div h1 {
+    font-size: 25px;
+    padding: 5px;
+    border: 2px solid blue;
+    background-color: white;
+}
+
 .main {
     display: flex;
     width: 100%;
@@ -53,6 +60,7 @@
 }
 
 .aside-left {
+    flex-direction: column;
     border: 2px solid blue;
     padding: 10px;
     margin: 10px;
@@ -61,6 +69,8 @@
 
 .aside-ldiv {
     padding: 10px 10px 30px 10px;
+    font-size: 25px;
+    
 }
 
 .aside-right {
@@ -72,8 +82,14 @@
     border: 2px solid blue;
 }
 
+.aside-rp {
+    padding:10px;
+}
+
 .contact-me {
     border: 2px solid blue;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .contact-me-div {
@@ -81,5 +97,36 @@
     border: 2px solid blue;
     margin: 6px;
     background-color: red;
+    
 }
 
+
+.smallproj {
+    display: grid;
+    grid-gap: 10px;
+    border: 2px solid blue
+}
+
+.smallfig1 {
+    grid-column: 1;
+    grid-row: 1;
+    border: 2px solid blue
+}
+
+.smallfig2 {
+    grid-column: 2;
+    grid-row: 1;
+    border: 2px solid blue
+}
+
+.smallfig3 {
+    grid-column: 1;
+    grid-row: 2;
+    border: 2px solid blue
+}
+
+.smallfig4 {
+    grid-column: 2;
+    grid-row: 2;
+    border: 2px solid blue
+}
