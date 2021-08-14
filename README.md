@@ -21,6 +21,11 @@ User will need to install and use within a web browser (EX: Google Chrome, Safar
 ## Usage
 
 In order to use and open this project, please visit https://derekthecarrot.github.io/portfolio-page/ within any web browser.
+The About Me link, will take you to the about me section.
+The My Projects link, will take you to the section for projects.
+The Contact Me link, will take you to the section with my contact information.
+The Resume link does not currently have any function to it, as I have no link attached to download yet.
+I have attempted to make my website as response as I can, the image for my projects properly wrap at a screen break of 425px.
 
 ![My Website](https://derekthecarrot.github.io/portfolio-page/assets/images/screenshot.PNG)
 

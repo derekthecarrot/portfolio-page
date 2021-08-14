@@ -51,6 +51,10 @@ div h1 {
  
 }
 
+.navli a {
+    text-decoration: none;
+}
+
 .heroimg {
     background-image: url(../assets/images/heroimage.jpg);
     height: 200px;
@@ -116,6 +120,10 @@ div h1 {
     display: flex;
     justify-content: space-evenly;
     background-color: #6C756B;
+}
+
+.contact-me a {
+    text-decoration: none;
 }
 
 .contact-me-div {
@@ -193,16 +201,20 @@ figure h2 {
         flex-direction: column;
     }
     .aside-rdiv{
+        margin-top: 4rem;
         width: 50%;
         position: relative;
         right: -7rem;
+        bottom: 3rem;
     }
     #AboutMe,
-    #ContactMe,
-    #MyProjects {
+    #ContactMe {
         border: none;
     }
 
-@media (max-width: 1024px) {
-
+    #MyProjects {
+        border: none;
+        position: relative;
+        top: 25rem
+    }
 }
