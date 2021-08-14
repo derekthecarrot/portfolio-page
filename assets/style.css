@@ -2,7 +2,6 @@
 body {
     display:flex;
     flex-direction: column;
-    margin: 0;
 }
 .header {
     background-color: #6685a7;
@@ -24,7 +23,8 @@ div h1 {
 .main {
     display: flex;
     width: 100%;
-
+    margin: 0 auto;
+    max-width: 1600px;
 }
 
 .divheader {
@@ -71,9 +71,8 @@ div h1 {
 .aside-left {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     padding: 10px;
-    width: 25%
+    width: 25%;
     
 }
 
@@ -84,8 +83,8 @@ div h1 {
     font-size: 25px;
     height: 33%;
     font-family: Verdana, sans-serif;
-    
 }
+
 
 #AboutMe {
     flex: .4;
@@ -128,10 +127,27 @@ div h1 {
     
 }
 
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
 .bigproj{
     display:flex;
 
 }
+
+figure {
+    position: relative;
+}
+
+figure h2 {
+    position: absolute;
+    bottom: 20px;
+    background-color: #96C5F7;
+    padding: 17px 10px;
+}
+
 .smallproj {
     display: flex;
     flex-wrap: wrap;
@@ -155,5 +171,38 @@ div h1 {
 
 .smallfig4 {
     border: 2px solid #96C5F7;
+
+}
+
+@media (max-width: 425px) {
+    .main {
+        margin: 0 5%;
+    }
+    figure img {
+        height: 125px;
+    }
+    .aside-right {
+        width: 100%;
+    }
+    .aside-left {
+        width: 0%;
+        position: relative;
+    }
+    .bigproj,
+    .smallproj {
+        flex-direction: column;
+    }
+    .aside-rdiv{
+        width: 50%;
+        position: relative;
+        right: -7rem;
+    }
+    #AboutMe,
+    #ContactMe,
+    #MyProjects {
+        border: none;
+    }
+
+@media (max-width: 1024px) {
 
 }

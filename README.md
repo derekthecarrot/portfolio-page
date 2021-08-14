@@ -26,7 +26,7 @@ In order to use and open this project, please visit https://derekthecarrot.githu
 
 ## Credits
 
-I received some help from both Alex Copley (https://github.com/Alex-Copley) and Daniel Peterman (https://github.com/DanielPeterman). They provided advice and a wireframe on how I can section out my content.
+I received some help from both Alex Copley (https://github.com/Alex-Copley) and Daniel Peterman (https://github.com/DanielPeterman). They provided advice and a wireframe on how I can section out my content. (Wireframe: https://wireframepro.mockflow.com/view/Mb75f46af3d672875cafa9cac6b422b2b1628541024690#/page/eca2cda41c41484db80bbc2bdf195ea3)
 I used MDN docs to assist me with learning flex properties and testing them. Source: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap
 I used coolors to generate a color scheme that I liked. Source: https://coolors.co/6c756b-93acb5-96c5f7-a9d3ff-f2f4ff
 
